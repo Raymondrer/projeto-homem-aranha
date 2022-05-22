@@ -1,0 +1,77 @@
+@import url(/assets/css/components/no-home.css);
+.s-gallery{
+  padding: 10px;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.s-gallery ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.s-gallery ul li{
+  margin-left: -40px;
+}
+
+.s-gallery ul li:first-child{
+  margin-left: 0;
+}
+
+.s-gallery ul li a img{
+  border: solid 3px var(--primary-color);
+  border-radius: 15px;
+  width: 75%;
+  height: 85%;
+}
+
+/*s-gallery-home*/
+.s-gallery-home{
+  padding: 10px;
+  padding-left: 0;
+  margin-bottom: 0;
+  
+}
+
+.s-gallery-home ul{
+  display: flex;
+  flex-direction: row;
+}
+
+.s-gallery-home ul li{
+  margin-left: -370px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.s-gallery-home ul li:first-child{
+  margin-left: 0;
+}
+
+.s-gallery-home ul li a img{
+  border: solid 3px var(--primary-color);
+  border-radius: 15px;
+  width: 50%;
+  height: 70%;
+}
+
+
+.s-3 ul li a img{
+  border: solid 3px black;
+  border-radius: 15px;
+  width: 75%;
+  height: 85%;
+}
+
+.s-blue ul li a img{
+  border: solid 3px #274360;
+  border-radius: 15px;
+  width: 75%;
+  height: 85%;
+}
+
+.img-1{
+  width: 40% !important;
+  height: 70% !important;
+}
+
